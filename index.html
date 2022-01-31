@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metube</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="search-box">
+        <input type="text" class="search-bar" placeholder="Embed Url" />
+        <button class="paste-btn">
+          <img src="img/paste.png" alt="Paste" />
+        </button>
+        <button class="search-btn">
+          <img src="img/search.PNG" alt="Search" />
+        </button>
+      </div>
+    </nav>
+
+    <!-- videos -->
+    <div class="video-container">
+      <iframe
+        class="responsive-iframe"
+        src="https://www.youtube.com/embed/pTDUZBZXVM4"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        id="ifrm"
+      ></iframe>
+    </div>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
